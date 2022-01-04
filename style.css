@@ -8,7 +8,7 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexiablecontainer{
     display: flex;
 }
 .half-width{
@@ -16,7 +16,7 @@ section{
     padding: 5%;
 }
 .half-width img{
-    width: 50%;
+    width: 70%;
 }
 .linkbutton{
     text-decoration: none;
@@ -32,4 +32,9 @@ section{
 .topbanner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.middlebanner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
